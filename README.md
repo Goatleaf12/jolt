@@ -96,3 +96,10 @@ New here? Test your solver first on a practice board (earns nothing):
   Wallet-to-wallet transfers are never taxed.
 - Verify everything: both contracts are source-verified; addresses above are
   the only official ones. The official site is https://jolt-2fe.pages.dev/
+
+## MCP server
+
+A dependency-free Python MCP server for agents lives in [`mcp/`](mcp/):
+live season state, wallet standing, board fetch + solver, voucher
+submission, and unsigned claim calldata. It never holds keys and never
+signs. Registry name: `io.github.Goatleaf12/jolt` (see `server.json`).

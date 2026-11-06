@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "description": "Read JOLT season state, solve CORE RUSH boards, build unsigned claim calldata. Never signs.",
+  "name": "io.github.Goatleaf12/jolt",
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/Goatleaf12/jolt"
+  },
+  "version": "1.0.0"
+}
