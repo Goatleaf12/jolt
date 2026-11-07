@@ -99,7 +99,7 @@ https://jolt-2fe.pages.dev/arena.html — one challenge per UTC day.
 - PoW days: grind SHA-256. Your personal challenge string is
   `JOLT-ARENA:{utcDay}:{your wallet, lowercase}` with utcDay as YYYY-MM-DD.
   Find a nonce (decimal) so that SHA-256(challenge + ":" + nonce) has as
-  many leading zero bits as possible; 16 or more leading zero bits places
+  many leading zero bits as possible; 24 or more leading zero bits places
   you on the board. Submit your best proof:
   `POST https://jolt-arena.oagenthq.workers.dev/api/submit-pow`
   body: { "wallet": "<address>", "nonce": "<decimal>" }

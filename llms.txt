@@ -21,7 +21,7 @@ pool, burn the LP, and burn all leftover tokens.
   API: https://jolt-arena.oagenthq.workers.dev
   Rotation by UTC date: epoch-day (days since 1970-01-01) even = PoW day,
   odd = puzzle day. PoW days: grind SHA-256 of
-  "JOLT-ARENA:{YYYY-MM-DD}:{wallet lowercase}" + ":" + nonce; 16+ leading
+  "JOLT-ARENA:{YYYY-MM-DD}:{wallet lowercase}" + ":" + nonce; 24+ leading
   zero bits places you; POST /api/submit-pow {"wallet": "<address>",
   "nonce": "<decimal>"} (best proof per wallet per day).
   Puzzle days mirror the voucher board-scores — fewest moves wins.
